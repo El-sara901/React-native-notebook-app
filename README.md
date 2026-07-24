@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+# Personal Notebook App
+> A lightweight, feature-rich React Native application built with Expo for capturing and managing daily notes, with full offline support and UI customization.
+---
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Tech Stack 
+* Framework: React Native (Expo)
+* Languge: TypeScript
+* Storage: AsyncStorage (Local persistent storage)
+* Styling: React Native StyleSheet
+---
+### Key Feature
+* Offline Persistence: Notes are automatically saved to  the device's local storage using ' AsyncStorage'.
+* Dynamic Customization: Users can dynamically change the note's background color, font size, and font style.
+* Live Search Filter: A real-time search mechanism to filter and find saved notes instantly.
+* Full CRUD Operations: Support for adding, editing, and deleting notes with date and time stamps.
+---
+### How to Run
+*Clone the repository:
+  ```bash
+   git clone [https://github.com/elh.sara/react-native-notebook-app.git](https://github.com/YOUR-USERNAME/react-native-notebook-app.git)
